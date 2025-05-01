@@ -14,7 +14,7 @@ jobs:
 
       - name: Add upstream and fetch
         run: |
-          git remote add upstream https://github.com/原作者/原仓库.git
+          git remote add upstream https://github.com/Toperlock/sing-box-subscribe
           git fetch upstream
           git log HEAD..upstream/main --oneline > diff.log
 
